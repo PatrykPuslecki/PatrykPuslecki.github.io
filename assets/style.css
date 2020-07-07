@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400italic");
+body {
+  margin: 0;
+}
+.particlehead {
+  background: #000;
+}
+
+h1 {
+  font-size: 35px;
+  color: #abcabc;
+  font-family: Montserrat, sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-left: -304px;
+  margin-top: -20px;
+  pointer-events: none;
+}
+
+h1 strong {
+  font-weight: 700;
+}
+
+p em {
+  font-family: "Playfair Display", serif;
+  text-transform: lowercase;
+  font-style: italic;
+}
