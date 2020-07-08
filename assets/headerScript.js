@@ -117,3 +117,25 @@ Background.headparticle = function () {
 };
 
 Background.headparticle();
+
+TweenMax.fromTo(
+  ".headerText",
+  1.2,
+  {
+    width: "0%",
+    delay: 1,
+    ease: Expo.easeInOut,
+  },
+  { width: "30%" }
+);
+
+TweenMax.fromTo(
+  ".headerSubText",
+  2,
+  {
+    width: "0%",
+    delay: 1.5,
+    ease: Expo.easeInOut,
+  },
+  { width: "35%" }
+);
