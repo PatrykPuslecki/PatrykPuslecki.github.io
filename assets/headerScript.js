@@ -123,8 +123,6 @@ TweenMax.fromTo(
   1.2,
   {
     width: "0%",
-    delay: 1,
-    ease: Expo.easeInOut,
   },
   { width: "30%" }
 );
@@ -134,8 +132,17 @@ TweenMax.fromTo(
   2,
   {
     width: "0%",
-    delay: 1.5,
-    ease: Expo.easeInOut,
+    opacity: "0",
   },
-  { width: "35%" }
-);
+  { width: "35%", opacity: "1" }
+).delay(0.5);
+
+TweenMax.fromTo(
+  ".bottomText",
+  1.5,
+  {
+    bottom: "0",
+    opacity: "0",
+  },
+  { bottom: "10%", opacity: "1" }
+).delay(2);

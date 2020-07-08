@@ -36,6 +36,7 @@ body {
   color: #fff;
   border-left: 1px solid #d3d3d3;
   padding-left: 5px;
+  font-family: "Bangers", sans-serif;
 }
 .headerSubText {
   position: absolute;
