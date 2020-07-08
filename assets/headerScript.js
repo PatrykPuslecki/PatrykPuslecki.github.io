@@ -47,12 +47,12 @@ Background.headparticle = function () {
   // model
   var loader = new THREE.OBJLoader(manager);
   loader.load(
-    "https://s3-us-west-2.amazonaws.com/s.cdpn.io/40480/head.obj",
+    //"https://s3-us-west-2.amazonaws.com/s.cdpn.io/40480/head.obj",
+    "https://raw.githubusercontent.com/PatrykPuslecki/patrykpuslecki.github.io/master/assets/head.obj",
     function (object) {
       object.traverse(function (child) {
         if (child instanceof THREE.Mesh) {
           // child.material.map = texture;
-
           var scale = 8;
 
           $(child.geometry.vertices).each(function () {
